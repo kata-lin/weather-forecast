@@ -12,15 +12,15 @@
 <body>
     <div class="weather-app">
         <header>
-        <form>
-            <input type="search" placeholder="Enter a city..." required class="search-input"/>
+        <form id="search-form">
+            <input type="search" placeholder="Enter a city..." required class="search-input" id="search-input"/>
             <input type="submit" value="Search" class="search-button"/>
         </form>
     </header>
     <main>
         <div class="weather-data">
             <div>
-                <h1>Paris</h1>
+                <h1 id="city">Paris</h1>
                 <p class="weather-details">
                     Tuesday 7:51, clear sky
                     <br>
@@ -38,5 +38,6 @@
         <p>Project built by <a href="https://github.com/kata-lin" target="_blank">Kata Balogh</a>, <a href="https://github.com/kata-lin/weather-forecast" target="_blank">open-sourced on Github</a> and <a href="https://sunshine-or-rain.netlify.app/" target="_blank">hosted on Netlify</a></p>
     </footer>
     </div>
+    <script src="src/script.js"></script>
 </body>
 </html>
