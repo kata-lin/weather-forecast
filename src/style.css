@@ -27,7 +27,7 @@ header {
 }
 
 .search-button {
-    background-color: darkblue;
+    background-color: midnightblue;
     border: none;
     border-radius: 5px;
     color: white;
@@ -95,8 +95,10 @@ h1 {
 }
 
 .weather-forecast-icon {
-    text-align: center;
-    font-size: 38px;
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
@@ -119,5 +121,5 @@ footer {
 }
 
 a {
-    color: darkblue;
+    color: midnightblue;
 }
